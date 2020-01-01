@@ -1,0 +1,12 @@
+studentDepartmentApp/CRUDApp.class
+studentDepartmentApp/controller/StudentController.class
+studentDepartmentApp/repository/StudentRepository.class
+studentDepartmentApp/repository/DepartmentRepository.class
+studentDepartmentApp/service/DepartmentService.class
+studentDepartmentApp/common/Converter.class
+studentDepartmentApp/service/StudentService.class
+studentDepartmentApp/configuration/SecurityConfiguration.class
+studentDepartmentApp/model/Department.class
+studentDepartmentApp/model/Student.class
+studentDepartmentApp/vm/StudentVM.class
+studentDepartmentApp/controller/DepartmentController.class

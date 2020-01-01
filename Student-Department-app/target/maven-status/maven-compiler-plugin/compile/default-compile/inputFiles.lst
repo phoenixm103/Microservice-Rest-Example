@@ -1,0 +1,12 @@
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/model/Department.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/repository/DepartmentRepository.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/controller/DepartmentController.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/CRUDApp.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/service/DepartmentService.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/vm/StudentVM.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/repository/StudentRepository.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/service/StudentService.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/model/Student.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/configuration/SecurityConfiguration.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/controller/StudentController.java
+/home/moinuddin/git/Student-Department-App/Student-Department-app/src/main/java/studentDepartmentApp/common/Converter.java

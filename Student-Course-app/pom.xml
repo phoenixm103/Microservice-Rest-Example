@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.ml</groupId>
+  <artifactId>mssqlSampleProject</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+ <parent>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
+	<version>2.0.8.RELEASE</version>
+	<relativePath/>
+	<!-- lookup parent from repository -->
+</parent>
+<properties>
+	<java.version>1.8</java.version>
+</properties>
+<dependencies>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter</artifactId>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-test</artifactId>
+		<scope>test</scope>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.microsoft.sqlserver</groupId>
+		<artifactId>sqljdbc_6.4</artifactId>
+		<version>6.4.0.0</version>
+		 <scope>system</scope>
+		<systemPath>${project.basedir}/src/main/resources/mssql-jdbc-6.4.0.jre8.jar</systemPath>
+	</dependency>
+	
+	
+   <dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+		<exclusions>
+			<exclusion>
+				<groupId>org.apache.tomcat</groupId>
+				<artifactId>tomcat-jdbc	</artifactId>
+			</exclusion>
+		</exclusions>
+		</dependency>
+		</dependencies>
+</project>

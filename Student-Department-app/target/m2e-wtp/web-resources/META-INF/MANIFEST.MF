@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: Student-Department-app Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: moinuddin
+Implementation-Vendor-Id: net.ml
+Build-Jdk: 1.8.0_232
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+
